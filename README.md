@@ -1,4 +1,4 @@
-# Welcome to My Database Project Repository!
+# Welcome to My SQL Project Repository!
 
 I’m **Kiran Mayi Hari Babu**, a data professional passionate about designing and querying databases to extract actionable insights. This repository showcases a collection of projects focused on demonstrating expertise in SQL, database design, and data analysis.
 
