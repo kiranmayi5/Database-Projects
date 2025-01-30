@@ -1,0 +1,21 @@
+CustomerID,CompanyName,ContactName,ContactTitle,Address,City,Region,PostalCode,Country,Phone,Fax
+C001,Company 1,Person 1,Manager,Street 1,New York,East,10001,USA,555-0101,555-0201
+C002,Company 2,Person 2,Director,Street 2,Los Angeles,West,10002,USA,555-0102,555-0202
+C003,Company 3,Person 3,CEO,Street 3,Chicago,Midwest,10003,USA,555-0103,555-0203
+C004,Company 4,Person 4,Analyst,Street 4,Houston,South,10004,USA,555-0104,555-0204
+C005,Company 5,Person 5,Manager,Street 5,Miami,Southeast,10005,USA,555-0105,555-0205
+C006,Company 6,Person 6,Director,Street 6,New York,East,10006,USA,555-0106,555-0206
+C007,Company 7,Person 7,CEO,Street 7,Los Angeles,West,10007,USA,555-0107,555-0207
+C008,Company 8,Person 8,Analyst,Street 8,Chicago,Midwest,10008,USA,555-0108,555-0208
+C009,Company 9,Person 9,Manager,Street 9,Houston,South,10009,USA,555-0109,555-0209
+C010,Company 10,Person 10,Director,Street 10,Miami,Southeast,10010,USA,555-01010,555-02010
+C011,Company 11,Person 11,CEO,Street 11,New York,East,10011,USA,555-01011,555-02011
+C012,Company 12,Person 12,Analyst,Street 12,Los Angeles,West,10012,USA,555-01012,555-02012
+C013,Company 13,Person 13,Manager,Street 13,Chicago,Midwest,10013,USA,555-01013,555-02013
+C014,Company 14,Person 14,Director,Street 14,Houston,South,10014,USA,555-01014,555-02014
+C015,Company 15,Person 15,CEO,Street 15,Miami,Southeast,10015,USA,555-01015,555-02015
+C016,Company 16,Person 16,Analyst,Street 16,New York,East,10016,USA,555-01016,555-02016
+C017,Company 17,Person 17,Manager,Street 17,Los Angeles,West,10017,USA,555-01017,555-02017
+C018,Company 18,Person 18,Director,Street 18,Chicago,Midwest,10018,USA,555-01018,555-02018
+C019,Company 19,Person 19,CEO,Street 19,Houston,South,10019,USA,555-01019,555-02019
+C020,Company 20,Person 20,Analyst,Street 20,Miami,Southeast,10020,USA,555-01020,555-02020
