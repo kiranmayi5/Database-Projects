@@ -16,7 +16,7 @@ Retail businesses face challenges in **tracking revenue trends, identifying high
 - **DimCategories**: Product category classification.
 
 ## 🛠 **Tech Stack & Tools**
-- **SQL:** MySQL / PostgreSQL for **data modeling, ETL, and analysis**
+- **SQL:** MySQL / MySQLWorkBench for **data modeling, ETL, and analysis**
 
 ## 🔍 **Key Business Insights**
 This project includes SQL queries to analyze:
