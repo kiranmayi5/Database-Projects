@@ -95,6 +95,20 @@ INSERT INTO DimCategories (CategoryID, CategoryName)
 SELECT CategoryID, CategoryName
 FROM cis467_final_project.Categories;
 
+-- Insert Data into Fact Tables
+INSERT INTO FactOrder (OrderID, EmployeeID, CustomerID, OrderDate, Freight, ShipName, ShipAddress, ShipCity, ShipRegion, ShipPostalCode, ShipCountry)
+SELECT o.OrderID, o.EmployeeID, o.CustomerID, STR_TO_DATE(o.OrderDate, '%m/%d/%Y'), 
+       o.Freight, o.ShipName, o.ShipAddress, o.ShipCity, o.ShipRegion, o.ShipPostalCode, o.ShipCountry
+FROM cis467_final_project.Orders o;
+
+INSERT INTO FactOrderDetails (OrderID, ProductID, UnitPrice, Quantity, Discount)
+SELECT od.OrderID, od.ProductID, od.UnitPrice, od.Quantity, od.Discount
+FROM cis467_final_project.Order_Details od;
+
+INSERT INTO FactProductStock (ProductID, UnitsInStock, UnitsOnOrder, ReorderLevel)
+SELECT p.ProductID, p.UnitsInStock, p.UnitsOnOrder, p.ReorderLevel
+FROM cis467_final_project.Products p;
+
 -- 1.1 Total Revenue & Monthly Sales Trend
 SELECT DATE_FORMAT(OrderDate, '%Y-%m') AS Month, 
        SUM(UnitPrice * Quantity * (1 - Discount)) AS TotalRevenue
@@ -216,9 +230,3 @@ SELECT EmployeeID, EmployeeName, OrderYear, TotalSales,
        ROUND(((TotalSales - LAG(TotalSales) OVER (PARTITION BY EmployeeID ORDER BY OrderYear)) /
        LAG(TotalSales) OVER (PARTITION BY EmployeeID ORDER BY OrderYear)) * 100, 2) AS YoY_Growth
 FROM EmployeeSales;
-
-
-
-
-
-
