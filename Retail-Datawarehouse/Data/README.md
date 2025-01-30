@@ -1,7 +1,7 @@
 ## 📂 Data & Queries
 This folder includes **sample data and SQL queries** for analysis.
 
-### 📁 `data/` Folder Contains:
+### 📁 This Folder Contains:
 - **queries.sql** → SQL script for database setup and analysis
 - **customers.csv** → Sample customer data
 - **products.csv** → Sample product data
