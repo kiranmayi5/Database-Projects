@@ -6,6 +6,7 @@ I’m **Kiran Mayi Hari Babu**, a data professional passionate about designing a
 
 ## 📂 What's Inside  
 
+### **Retail Data Warehouse & SQL Analytics**  
 - **Overview:** Designed and implemented a **Retail Data Warehouse** using **MySQL/MYSQLWorkbench** to analyze revenue, customer trends, and product performance.  
 - **Key Insights:**  
   - Monthly and yearly revenue trends  
