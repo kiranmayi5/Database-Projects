@@ -1,4 +1,4 @@
-# Welcome to My SQL Project Repository!
+# 🚀 Welcome to My SQL Project Repository!
 
 I’m **Kiran Mayi Hari Babu**, a data professional passionate about designing and querying databases to extract actionable insights. This repository showcases a collection of projects focused on demonstrating expertise in SQL, database design, and data analysis.
 
@@ -6,15 +6,19 @@ I’m **Kiran Mayi Hari Babu**, a data professional passionate about designing a
 
 ## 📂 What's Inside  
 
-### **Retail Warehousing Project**  
-   - **Overview**: This project involves building a data warehouse from transactional data and writing advanced SQL queries to extract meaningful insights for strategic business decisions.
-   - **Skills**: Data-warehousing, SQL Queries, Database Design
+- **Overview:** Designed and implemented a **Retail Data Warehouse** using **MySQL/MYSQLWorkbench** to analyze revenue, customer trends, and product performance.  
+- **Key Insights:**  
+  - Monthly and yearly revenue trends  
+  - Top-performing products and customer segments  
+  - Regional sales distribution  
+  - Employee sales performance tracking  
 
 ---
 
 ## 🛠️ Tools & Skills  
-- **Tools**: SQL (PostgreSQL, MySQL)  
-- **Techniques**: Data Modeling, Query Optimization, Business Intelligence  
+- **SQL Databases:** MySQL, PostgreSQL  
+- **Techniques:** Data Modeling, Query Optimization, Business Intelligence, ETL  
+- **Key SQL Concepts:** CTEs, Window Functions, Aggregations, Joins, Indexing   
 
 ---
 
